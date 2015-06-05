@@ -1,31 +1,90 @@
-<html>
+<!doctype html>
+<html lang="zh-cn">
 <head>
-	<meta name="keyword" content="bootstrap docker ">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<style>
-		body{
-			padding: 5.1px;
-			-webkit-border-image: -webkit-linear-gradient(left, #fc0, bakc);
-			-o-border-image: -o-linear-gradient(left, #fc0, bakc);
-			border-image: linear-gradient(to right, #fc0, bakc);
+		div.hero-unit{
+			background:url("img/bg.jpg") no-repeat;
+			height: 433px;
+			width: 980px;
+			position: relative;
+			padding: 0;
+			margin: 0;
+			border-color: gray;
+		}
+		div.hero-unit h1{
+			display:none;
+		}
+		div.hero-unit .banner{
+			position: absolute;
+			bottom: 0;
+			left: 10px;
+
+		}
+		div.hero-unit .btn{
+			position: absolute;
+			bottom: 14px;
+			right: 20px;
 		}
 	</style>
 </head>
-<body>Typical Girls
-	<div class="container">
-		
-	<h1>helloworld</h1>
-		<div class="col-md-4 ">adf</div>
-		<div class="col-md-4">asdf</div>
-		<div class="col-md-5">asdf</div>
-		 
+<body>
+<div class="container">
+	<div class="hero-unit">
+		<h1>联机控股</h1>
+
+		<p class="banner"><img src="img/bg2.jpg" alt=""/></p>
+
+		<p><a class="btn" href="#">更多&raquo;</a></p>
 	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<h2>公司专题</h2>
+
+			<p>2012年12月2日,联想之星创业大讲堂在常州举行,柳传志就"创业一把手的成长"、
+				“创业团队的建设” 与创业者进行分享。
+			</p>
+
+			<p><a class="btn" href="#">了解更多&raquo;</a></p>
+		</div>
+		<div class="col-md-4">
+			<h2>特别关注</h2>
+			<p>从靠"卖电脑"起家,到旗下集、房地产、消费与现代服务、化工新材料、现代农业
+				五大核心资产运营于一体，联机控股正冲刺在2014年～2016年之间上市。
+			</p>
+			<p><a class="btn" href="#">了解更多&raquo;</a></p>
+		</div>
+		<div class="col-md-4">
+			<h2>我们的历史</h2>
+
+			<p>
+				<img src="img/bg1.jpg" alt=""/>
+			</p>
+			<p><a class="btn" href="">了解更多&raquo;</a></p>
+		</div>
+	</div>
+	<hr/>
+	<footer>
+		<p>&copy;Company 2013</p>
+	</footer>
+	
+	
+</div>
 
 
 
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
